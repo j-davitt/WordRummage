@@ -1,6 +1,17 @@
 # Word-Rummage
 
-![Demo](./assets/WR-Demo.mp4)
+![Demo](./assets/WRDemo.gif)
+
+This is a [group project](https://github.com/Word-Rummage/Word-Rummage) I participated in at Code Fellows. It is hosted with GitHub Pages at [Word Rummage](https://word-rummage.github.io/Word-Rummage/).
+
+Some of my personal contributions include:
+
+- Sorting and rendering the highscores from local storage.
+- Created the gameboard to be dynamic based on the round the player is on.
+- Created the start and wipe gameboard functions.
+- Created the board fill functions.
+- Added functionality to verify user selection and give visual feedback.
+- Participated in daily pair programming sessions.
 
 ## Group Members
 
