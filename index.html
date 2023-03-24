@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Rummage Hero</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <header>
+    <section class="top-container">
+      <h1>Word Rummage</h1>
+    </section>
+    <nav>
+      <ul>
+        <a href="index.html">Home</a>
+        <a href="highscore.html">Highscores</a>
+        <a href="aboutme.html">About</a>
+      </ul>
+    </nav>
+  </header>
+  <section id="top-bar">
+    <h2 id="target-word">TARGET WORD:</h2>
+  </section>
+
+  <main>
+    <section id="game-container">
+      <section id="gameboard">
+
+
+      </section>
+      <section id="nextRoundProgress">
+        <section id="progressBar"></section>
+      </section>
+    </section>
+    
+    <section id="bottom-bar">
+      <h2 id="timer">TIME REMAINING:</h2>
+      <h2 id="current-score">CURRENT SCORE:</h2>
+    </section>
+    <section id="description-container">
+      <section id="description">
+        <h3>Description</h3>
+      <p>The game no one asked for but the world deserves.<br><br>Search for your given word and race the clock. Be careful where you click though because your time and score will be effected if you click the wrong letters.<br>See how many rounds you can go and beat your high score!</p>
+        <h3>Instructions</h3>
+      <p>INSTRUCTIONS <br><br>1. Look at the top of the screen for the word you need to search for.<br><br>2. Words can be horizontal, vertical, or diagonal and even backwards on the board.<br><br>3. Click each letter in the word, in any order, until the word is highlighted green. Wrong letters will appear red when selected and points/time will be deducted.<br><br> 4. When the progress bar fills to 100% the game will proceed to the next round and deducts time.So be quick in your search!<br><br>5. A score multiplier will be implemented if you get multiple words correct in a row.  3 words in a row will be a 2x multiplier and 6+ words in a row will be a 3x multiplier to your points </p>
+      </section>
+    </section>
+    <section id="review-container">
+      <form id="review-form">
+        <fieldset id="review-fieldset">
+          <legend>Leave a Review</legend>
+          <label for="review"></label>
+          <textarea name="review" id="review" placeholder="Your Review" rows="10" cols="50"></textarea>
+          <label hidden for="submit">Submit</label>
+          <input type="submit" id="submit" name="submit">
+        </fieldset>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; Super Awesome Friends 2022</p>
+  </footer>
+
+  <script src="js/wordsList.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
