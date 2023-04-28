@@ -15,11 +15,11 @@ Some of my personal contributions include:
 
 ## Group Members
 
-Brennan Malone
-Joe Davitt
-Adrienne Frey
-Ken Holt
-Jordan Covington
+- Brennan Malone
+- Joe Davitt
+- Adrienne Frey
+- Ken Holt
+- Jordan Covington
 
 ## Description
 
