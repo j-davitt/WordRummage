@@ -1,5 +1,7 @@
 # Word-Rummage
 
+**REFACTOR CAN BE FOUND [HERE](https://github.com/The-Dangerzone/WordRummage-FE)**
+
 ![Demo](./assets/WRDemo.gif)
 
 This is a [group project](https://github.com/Word-Rummage/Word-Rummage) I participated in at Code Fellows. It is hosted with GitHub Pages at [Word Rummage](https://word-rummage.github.io/Word-Rummage/).
